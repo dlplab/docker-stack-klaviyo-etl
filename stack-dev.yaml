@@ -5,7 +5,7 @@ networks:
 services:
   klaviyo-etl:
     container_name: klaviyo-etl-dev
-    image: gdelapierre/klaviyo-etl:1.0.0
+    image: gdelapierre/klaviyo-etl:1.0.1
     environment:
       # Klaviyo
       - KLAVIYO_API_KEY=${KLAVIYO_API_KEY}
